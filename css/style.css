@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(236, 244, 243);
+    color: goldenrod;
+    font-size: 1.5rem;
+    padding: 1em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    font-size: 40px;
+}
+
+img {
+    border: 0.5cm ridge lightgreen;
+}
+
+main div {
+    margin: 3em 0;
+}
+
+#learning {
+    text-align: right;
+}
+
+#question {
+    text-align: center;
+}
+

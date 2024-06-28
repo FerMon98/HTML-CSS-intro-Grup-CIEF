@@ -15,6 +15,44 @@ img {
     border: 0.5cm ridge lightgreen;
 }
 
+@media screen and (min-width: 571px) {
+    #secondfooter {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    img {
+        width: 70%;
+        height: 60%;
+    }
+
+    body {
+        font-size: smaller;
+        padding: 0 5em;
+        background-color: black;
+        color: greenyellow;
+    }
+
+    a {
+        color: white;
+    }
+
+    footer {
+        visibility: hidden;
+    }
+
+    #secondfooter{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    img {
+        border: 0.3cm ridge white;
+    }
+}
+
 main div {
     margin: 3em 0;
 }

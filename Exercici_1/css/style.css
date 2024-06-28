@@ -1,8 +1,79 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    
+    padding: 2em 4em;
 }
 
 h1 {
     text-align: center;
+    height: 2em;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 4em;
+    list-style-type: none;
+    background-color: gainsboro;
+    align-items: center;
+    border-radius: 30px;
+}
+
+ul a{
+    text-decoration: none;
+    color: navy;
+
+}
+
+section {
+    margin: 2em 0;
+}
+
+figure {
+    padding: 1.5em 0;
+}
+
+figure img{
+    border: 0.5em solid black;
+    padding: 0.2em;
+}
+
+sup a{
+    color: blue;
+    text-decoration: none;
+}
+
+pre {
+    white-space: pre-line;
+    padding: 1em 3em;
+    border: 0.1em solid black;
+}
+
+hr {
+    padding: 0.2em;
+    border: 0.15em solid black;
+}
+
+ol li {
+    padding: 1em 0;
+}
+
+ol a {
+    text-decoration: none;
+    color: blue;
+    font-size: 1.3em;
+}
+
+ol a::before {
+    display: inline-block;
+    margin-right: 0.5em;
+}
+
+.archive {
+    font-size: 1em;
+}
+
+section a:focus {
+    background-color: black;
+    color: white;
 }

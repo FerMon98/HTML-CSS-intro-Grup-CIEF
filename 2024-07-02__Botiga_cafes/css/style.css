@@ -23,6 +23,7 @@ header {
 
 header img {
     width: 100%;
+    display: block;
 }
 
 h1, h2 {
@@ -54,7 +55,6 @@ nav {
     height: 60px;
     align-content: center;
     overflow: hidden;
-    margin: -9px 0 0;
     position: sticky;
     top: 0;
     display: flex;
@@ -96,7 +96,6 @@ main {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 70%;
     margin: 0 auto;
     width: 1200px;
     padding: 0.2% 0;
@@ -163,6 +162,18 @@ footer {
     justify-content: center;
 }
 
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    text-transform: uppercase;
+    color: lightsalmon;
+}
+
 #footer {
     width: 1300px;
     display: grid;
@@ -181,10 +192,6 @@ footer p {
     gap: 1rem;
 }
 
-.flinks div a {
-    text-decoration: none;
-    color: white;
-}
 
 .sm img{
     padding: 0.8em .2em;

@@ -57,6 +57,8 @@ nav {
     margin: -9px 0 0;
     position: sticky;
     top: 0;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -65,6 +67,7 @@ nav ul {
     flex-direction: row;
     list-style-type: none;
     justify-content: space-around;
+    width: 1300px;
 }
 
 nav a {

@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins&display=swap');
+
+* {
+    Margin: 0;
+    Padding: 0;
+    Box-sizing: border box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+:root {
+    --width-l: 1100px;
+}
+
+/* HEADER */
+
+header {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    width: 100%;
+}
+
+h1, h2 {
+    font-family: "Dancing Script", cursive;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    background-color: rgb(116, 83, 39, 0.65);
+    right: 10%;
+    top: 30%;
+    width:6em;
+    border-radius: 40rem;
+    text-align: center;
+    font-size: 7vw;
+}
+
+h2 {
+    font-size: 3rem;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+/* MENU */
+
+nav {
+    background-color: #053617;
+    height: 60px;
+    align-content: center;
+    overflow: hidden;
+    margin: -9px 0 0;
+    position: sticky;
+    top: 0;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.10rem;
+}
+
+nav a:hover {
+    color: brown;
+    text-decoration: overline;
+    text-decoration-color: aqua;
+    text-transform: uppercase;
+}
+
+/* MAIN */
+
+main {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    width: 1200px;
+    padding: 0.2% 0;
+}
+
+div img {
+    width: 50%;
+    height: 100%;
+}
+
+/*.green {
+    background-color: #053617;
+    color: white;
+} */
+
+main section:nth-child(even) {
+    background-color: #053617;
+    color: white;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 0 1em;
+}
+
+.flex2 .text p {
+    text-align: justify;
+}
+
+.opinion {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    width: 1300px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.opinions {
+    display: grid;
+    align-items: top;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+}
+
+.opinions p {
+    text-align: right;
+    color: darkred;
+    padding-top: 1em;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #053617;
+    color: white;
+    height: 20rem;
+    padding: 2em 1em;
+    line-height: 2.5rem;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+#footer {
+    width: 1300px;
+    display: grid;
+    grid-template-columns: 0.9fr 1fr 1fr;
+    padding: 3rem 0;
+}
+
+footer p {
+    line-height: 2em;
+}
+
+
+.flinks {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.flinks div a {
+    text-decoration: none;
+    color: white;
+}
+
+.sm img{
+    padding: 0.8em .2em;
+    height: 1.5em;
+    width: 1.5em;
+}
